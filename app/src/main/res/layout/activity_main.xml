@@ -150,9 +150,8 @@
             android:layout_height="wrap_content"
             android:layout_row="4"
             android:layout_column="0"
-            android:text="Eyebrow"
             android:onClick="cbeyebrow"
-            android:visibility="visible" />
+            android:text="Eyebrow"/>
 
         <!--        Second columns-->
 
@@ -163,8 +162,7 @@
             android:layout_row="0"
             android:layout_column="1"
             android:text="Eye"
-            android:onClick="cbeye"
-            android:visibility="visible" />
+            android:onClick="cbeye"/>
 
         <CheckBox
             android:id="@+id/cb_glasses"
@@ -173,8 +171,7 @@
             android:layout_row="1"
             android:layout_column="1"
             android:text="Glasses"
-            android:onClick="cbglasses"
-            android:visibility="visible" />
+            android:onClick="cbglasses"/>
 
         <CheckBox
             android:id="@+id/cb_mustache"

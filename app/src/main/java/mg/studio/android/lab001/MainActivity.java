@@ -2,6 +2,7 @@ package mg.studio.android.lab001;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView mouth, arms, ears, eyebrows, eyes, glasses, hat, mustache, nose, shoes;
     CheckBox mouthcb, armscb, earscb, eyebrowscb, eyescb, glassescb, hatcb, mustachecb, nosecb, shoescb;
+
 
 
     @Override
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mustache = findViewById(R.id.mustache);
         nose = findViewById(R.id.nose);
         shoes = findViewById(R.id.shoes);
+
 
         mouthcb = findViewById(R.id.cb_mouth);
         armscb = findViewById(R.id.cb_arms);
@@ -190,4 +193,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+
 
